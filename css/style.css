@@ -405,6 +405,11 @@ footer ul li a:hover{
   .container{
       width: var(--container-width-md);
   }
+    .header__right img{
+        display: none; 
+    }
+    .header__right{
+        display: none;}
   h1{
       font-size: 2.2rem;
   }
