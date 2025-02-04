@@ -536,7 +536,9 @@ header{
     .container{
         width: var(--container-width-sm);
     }
-
+.header__right {
+    display: hidden;
+}
     /* navbar */
     .nav__menu{
         right: 3%;
