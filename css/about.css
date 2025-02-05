@@ -1,4 +1,3 @@
-/* achivements */
 .about__achievements{
     margin-top: 10rem;
     margin-bottom: 10rem;
@@ -49,7 +48,6 @@
     margin-top: 1rem;
 }
 
-/* team styles */
 .team{
     background: var(--color-white);
     color: #50ccf3;
@@ -68,7 +66,6 @@
     background: var(--color-bg2);
     padding: 2rem;
     border: 1px soild transparent;
-    /* border-radius: 1rem; */
     transition: var(--transition);
     position: relative;
     overflow: hidden;
@@ -120,7 +117,6 @@ right: 0;
 }
 
 
-/* responsive design */
 @media screen and (max-width:1024px){
     .about__achievements{
         margin-top: 8rem;
@@ -148,7 +144,6 @@ right: 0;
     
 }
 
-/* media query for mobile */
 @media screen and (max-width:600px){
     .achievments__cards{
         grid-template-columns: 1fr 1fr;
